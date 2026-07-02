@@ -13,77 +13,78 @@ function useReveal() {
   }, [])
 }
 
-// ── Exact Figma asset URLs (Hero / Navbar)
+// ── Figma assets (mirrored locally in public/assets/figma — Hero / Navbar)
 const imgLogo        = "/assets/final/logo-white.png"
-const imgHeroBadge   = "https://www.figma.com/api/mcp/asset/110bf016-a63e-4854-959c-8884080d2c7c"
-const imgHeroCard1   = "https://www.figma.com/api/mcp/asset/2eb8e893-7566-4365-a929-0622e41b1093"
-const imgHeroLaptop  = "https://www.figma.com/api/mcp/asset/cde2d1db-a511-4c8d-9a17-651ef708634c"
-const imgHeroMock    = "https://www.figma.com/api/mcp/asset/fcdf986b-f3f3-4257-904a-f506bc8e282f"
-const imgEllipse1    = "https://www.figma.com/api/mcp/asset/818ed263-038c-4c4a-baa9-f326d370f9e3"
-const imgEllipse2    = "https://www.figma.com/api/mcp/asset/87a4042f-888b-4b6f-bc79-97ef3c1eb24f"
+const imgHeroBadge   = "/assets/figma/frame.svg"
+const imgHeroCard1   = "/assets/figma/image19.png"
+const imgHeroLaptop  = "/assets/figma/image13.png"
+const imgHeroMock    = "/assets/figma/image21.png"
+const imgEllipse1    = "/assets/figma/ellipse1.svg"
+const imgEllipse2    = "/assets/figma/ellipse2.svg"
 
 // ── Features section
-const imgMockGen     = "https://www.figma.com/api/mcp/asset/fbb47399-b35f-48f2-8e3c-5acdc2f65ce3"
-const imgRubric      = "https://www.figma.com/api/mcp/asset/6b520f7a-d0cd-45eb-bf32-450a80315b34"
-const imgScorePred   = "https://www.figma.com/api/mcp/asset/38c0ce39-287a-48af-bf92-2c5a3a326c09"
-const imgBenchmark   = "https://www.figma.com/api/mcp/asset/fcc7b46e-cc00-46cc-873b-d0a887631b96"
-const imgConceptTutor= "https://www.figma.com/api/mcp/asset/5eb7cd4e-91f6-488c-b46a-5642cf2cff88"
+const imgMockGen     = "/assets/figma/image24.png"
+const imgRubric      = "/assets/figma/image25.png"
+const imgScorePred   = "/assets/figma/image26.png"
+const imgBenchmark   = "/assets/figma/image27.png"
+const imgConceptTutor= "/assets/figma/image28.png"
 
 // ── Journey section
-const imgProgress    = "https://www.figma.com/api/mcp/asset/d60c3b21-6234-451d-86dc-16dad3aae4aa"
-const imgTopper      = "https://www.figma.com/api/mcp/asset/e3cff2ff-36fb-4093-ac1d-edf6e1e5a23c"
-const imgRevision    = "https://www.figma.com/api/mcp/asset/2babe861-e536-41fa-bf3b-c150640c1df8"
-const imgParent      = "https://www.figma.com/api/mcp/asset/3c1524fc-849b-465d-89ff-3bb0566e2adc"
+const imgProgress    = "/assets/figma/image48.png"
+const imgTopper      = "/assets/figma/image49.png"
+const imgRevision    = "/assets/figma/image51.png"
+const imgParent      = "/assets/figma/image52.png"
 
 // ── Mock measure
-const imgMockMeasure = "https://www.figma.com/api/mcp/asset/c474fd41-9043-4df0-8300-3f041ca47d63"
+const imgMockMeasure = "/assets/figma/image60.png"
 
 // ── Voice Call
-const imgTutor53     = "https://www.figma.com/api/mcp/asset/dec5f275-0732-4f57-a996-3c8cb21a70bc"
-const imgTutor55     = "https://www.figma.com/api/mcp/asset/75945d1b-438b-4a1c-80e8-aaf974366ec9"
-const imgTutor56     = "https://www.figma.com/api/mcp/asset/e8ec4419-469d-4cad-b2fd-b9f5cb2fed63"
-const imgTutor57     = "https://www.figma.com/api/mcp/asset/c9e67f97-d0c9-4eec-90d8-30924dccf062"
-const imgTutor58     = "https://www.figma.com/api/mcp/asset/0a98ef80-3183-4d72-98ec-b0fbd90651bf"
-const imgTutor59     = "https://www.figma.com/api/mcp/asset/c4cdb83f-9449-4384-8253-6218dfbc6968"
-const imgVoiceYou    = "https://www.figma.com/api/mcp/asset/151fb259-ca6b-43c6-b519-161402066057"
-const imgVoiceAI     = "https://www.figma.com/api/mcp/asset/6a7f684a-6271-4e27-a0aa-63797faaf808"
-const imgVoiceWave   = "https://www.figma.com/api/mcp/asset/b713bdb1-7422-44eb-ae7f-654fe68924de"
-const imgVoiceMic    = "https://www.figma.com/api/mcp/asset/7559a7f9-568b-48e7-8444-bae3f991bf03"
-const imgVoiceSpk    = "https://www.figma.com/api/mcp/asset/2e9c0c1d-3e82-48b2-958b-8e1f5690237c"
-const imgVoiceUp     = "https://www.figma.com/api/mcp/asset/4c56f565-ac76-45fd-b1eb-f28f5617e4a5"
-const imgVoiceCap    = "https://www.figma.com/api/mcp/asset/b273b8db-a4ab-48cb-884b-3f2fe43b90d2"
-const imgVector1     = "https://www.figma.com/api/mcp/asset/385ec405-423e-4917-b37e-34a4bb8769e2"
-const imgVector2     = "https://www.figma.com/api/mcp/asset/e3728ba7-1878-4064-8119-000c133f99af"
-const imgMicBtn      = "https://www.figma.com/api/mcp/asset/fcafc923-c2b2-49e6-b5a2-4982a9477eca"
+const imgTutor53     = "/assets/figma/image53.png"
+const imgTutor55     = "/assets/figma/image55.png"
+const imgTutor56     = "/assets/figma/image56.png"
+const imgTutor57     = "/assets/figma/image57.png"
+const imgTutor58     = "/assets/figma/image58.png"
+const imgTutor59     = "/assets/figma/image59.png"
+const imgVoiceYou    = "/assets/figma/ellipse3.png"
+const imgVoiceAI     = "/assets/figma/ellipse4.png"
+const imgVoiceWave   = "/assets/figma/rectangle1.svg"
+const imgVoiceMic    = "/assets/figma/frame1.svg"
+const imgVoiceSpk    = "/assets/figma/frame2.svg"
+const imgVoiceUp     = "/assets/figma/frame3.svg"
+const imgVoiceCap    = "/assets/figma/frame4.svg"
+const imgVector1     = "/assets/figma/vector1.svg"
+const imgVector2     = "/assets/figma/vector2.svg"
+const imgMicBtn      = "/assets/figma/frame5.svg"
 
 // ── Sketchpad
-const imgSketchIsha  = "https://www.figma.com/api/mcp/asset/1c49d8e3-881f-47d1-bf12-fc3d61b6e365"
-const imgSketchRajat1= "https://www.figma.com/api/mcp/asset/20167303-6163-4565-bfe4-38bb11ab98ca"
-const imgSketchRajat2= "https://www.figma.com/api/mcp/asset/d3672880-7d34-40c5-b13c-9ffbbff4678e"
-const imgSketchGraph = "https://www.figma.com/api/mcp/asset/f667f3eb-17f1-431f-a025-82884e8fc7b7"
-const imgSketchDot   = "https://www.figma.com/api/mcp/asset/43e29e14-af17-4519-8da2-dcd49b4cec37"
-const imgSketchF5    = "https://www.figma.com/api/mcp/asset/8f80e6f9-d0b5-40de-816f-d9286a76c2af"
-const imgSketchF6    = "https://www.figma.com/api/mcp/asset/13584916-e4aa-452f-9054-cf9e5a2ffcc8"
-const imgSketchF7    = "https://www.figma.com/api/mcp/asset/56e8c040-57c5-4178-92a4-bad23812071d"
-const imgSketchF8    = "https://www.figma.com/api/mcp/asset/96d79b8a-ad43-47ee-bd85-103b1b6295c4"
-const imgSketchLine  = "https://www.figma.com/api/mcp/asset/b5c66584-a7fc-4267-a18d-111eb9ea51c7"
-const imgSketchEnd   = "https://www.figma.com/api/mcp/asset/ea06c61b-e1b9-425e-8afc-56f020127686"
-const imgSketchChat  = "https://www.figma.com/api/mcp/asset/6db6c9a0-5ef0-4692-9396-72c117a1ae2d"
+const imgSketchIsha  = "/assets/figma/ellipse5.svg"
+const imgSketchRajat1= "/assets/figma/image3.png"
+const imgSketchRajat2= "/assets/figma/image4.png"
+const imgSketchRajat3= "/assets/figma/image5.png"
+const imgSketchGraph = "/assets/figma/image14.png"
+const imgSketchF1    = "/assets/figma/frame6.svg"
+const imgSketchF2    = "/assets/figma/frame7.svg"
+const imgSketchF3    = "/assets/figma/frame8.svg"
+const imgSketchF4    = "/assets/figma/frame9.svg"
+const imgSketchF5    = "/assets/figma/frame10.svg"
+const imgSketchLine  = "/assets/figma/line1.svg"
+const imgSketchEnd   = "/assets/figma/frame11.svg"
+const imgSketchChat  = "/assets/figma/frame12.svg"
 
 // ── Tools
-const imgTool42      = "https://www.figma.com/api/mcp/asset/0d3d3cb1-c6d6-46ae-9a92-e469b8134c20"
-const imgTool43      = "https://www.figma.com/api/mcp/asset/217608cc-9264-4db5-8c50-c1c16b1b4716"
-const imgTool44      = "https://www.figma.com/api/mcp/asset/449ad6c8-1494-4c74-bc18-fa3e14f23223"
-const imgTool45      = "https://www.figma.com/api/mcp/asset/aa4f184c-be7e-405f-aee6-f864329c96b6"
-const imgTool46      = "https://www.figma.com/api/mcp/asset/f7b7824a-1d73-4107-8ea8-2408809449ee"
-const imgTool47      = "https://www.figma.com/api/mcp/asset/d4f7ef84-cd23-4b1e-b37d-ea5432e92848"
+const imgTool42      = "/assets/figma/image42.png"
+const imgTool43      = "/assets/figma/image43.png"
+const imgTool44      = "/assets/figma/image44.png"
+const imgTool45      = "/assets/figma/image45.png"
+const imgTool46      = "/assets/figma/image46.png"
+const imgTool47      = "/assets/figma/image47.png"
 
 // ── Testimonials
-const imgAvatar30    = "https://www.figma.com/api/mcp/asset/8e8d9efe-97e2-473a-b301-bfa14f4ccc99"
-const imgComma       = "https://www.figma.com/api/mcp/asset/fafe9645-51b2-4a9f-9d6e-d5565c481e75"
+const imgAvatar30    = "/assets/figma/image30.png"
+const imgComma       = "/assets/figma/simple-icons-comma.svg"
 
 // ── CTA
-const imgCTABg       = "https://www.figma.com/api/mcp/asset/cfe5b066-7375-4757-b2f4-b4b76aed1cfa"
+const imgCTABg       = "/assets/figma/image40.png"
 
 // ── Helpers
 function nodeCompleted(id, p) {
@@ -1077,21 +1078,21 @@ export default function Desktop3() {
                   <div className="flex gap-[8px] items-center w-full">
                     <p style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 400, fontSize: 12, color: '#00c1c1', lineHeight: 'normal', whiteSpace: 'nowrap' }}>Tutor</p>
                     <div className="relative shrink-0" style={{ width: 4, height: 4 }}>
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src="https://www.figma.com/api/mcp/asset/2c4a98f4-f2f3-4390-a1b1-0045238732a2" />
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSketchIsha} />
                     </div>
                     <p style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 400, fontSize: 12, color: '#73808c', lineHeight: 'normal', whiteSpace: 'nowrap' }}>Explaning...</p>
                   </div>
                 </div>
                 <div className="absolute bg-[#e7e7e7] overflow-clip rounded-[26px]" style={{ left: 12, top: 9, width: 40, height: 40 }}>
-                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[500px] size-full" src="https://www.figma.com/api/mcp/asset/05cd231e-4541-42af-bc23-a27237c7270b" />
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[500px] size-full" src={imgSketchRajat1} />
                 </div>
               </div>
               {/* Rajat Garg */}
               <div className="bg-white relative rounded-[12px] overflow-clip shrink-0" style={{ height: 60, width: 210, border: '1px solid #e9e9e9' }}>
                 <div className="absolute bg-[#e7e7e7] overflow-clip rounded-[26px]" style={{ left: 12, top: 9, width: 40, height: 40 }}>
-                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[500px] size-full" src="https://www.figma.com/api/mcp/asset/22f2be10-91f7-46b6-b106-c6f08026846b" />
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[500px] size-full" src={imgSketchRajat2} />
                   <div className="absolute overflow-hidden pointer-events-none rounded-[500px]" style={{ height: 40, left: -1, top: 0, width: 41 }}>
-                    <img alt="" className="absolute max-w-none" style={{ height: '100.05%', left: '-42.06%', top: '-0.03%', width: '146.34%' }} src="https://www.figma.com/api/mcp/asset/f2eb4918-75ff-44ad-9b59-a7bbefd11e2f" />
+                    <img alt="" className="absolute max-w-none" style={{ height: '100.05%', left: '-42.06%', top: '-0.03%', width: '146.34%' }} src={imgSketchRajat3} />
                   </div>
                 </div>
                 <div className="absolute flex flex-col items-start" style={{ left: 62, top: 9, width: 100 }}>
@@ -1107,11 +1108,11 @@ export default function Desktop3() {
                 {/* 5 tool buttons */}
                 <div className="flex gap-[8px] items-center shrink-0">
                   {[
-                    "https://www.figma.com/api/mcp/asset/d7a884e2-a142-4f76-96aa-7d0d17615d7a",
-                    "https://www.figma.com/api/mcp/asset/0a44c14a-0bb5-4591-b0ec-9ecfc8a23112",
-                    "https://www.figma.com/api/mcp/asset/71ca75c8-fa40-4844-b1b4-60aa040eb025",
-                    "https://www.figma.com/api/mcp/asset/42c99810-fa03-422d-b563-e9eef49a8ad8",
-                    "https://www.figma.com/api/mcp/asset/c8f02c3e-d22c-4204-8752-659758c10324",
+                    imgSketchF1,
+                    imgSketchF2,
+                    imgSketchF3,
+                    imgSketchF4,
+                    imgSketchF5,
                   ].map((src, i) => (
                     <div key={i} className="flex items-center justify-center overflow-clip p-[12px] rounded-[500px] shrink-0" style={{ background: '#f7f7f8', width: 50, height: 50 }}>
                       <div className="relative shrink-0" style={{ width: 20, height: 20 }}>
@@ -1125,7 +1126,7 @@ export default function Desktop3() {
                   <div style={{ transform: 'rotate(90deg)' }}>
                     <div className="relative" style={{ height: 0, width: 50 }}>
                       <div className="absolute" style={{ inset: '-1px 0 0 0' }}>
-                        <img alt="" className="block max-w-none size-full" src="https://www.figma.com/api/mcp/asset/6aabe451-aae2-49d9-9c8b-147396a33852" />
+                        <img alt="" className="block max-w-none size-full" src={imgSketchLine} />
                       </div>
                     </div>
                   </div>
@@ -1133,7 +1134,7 @@ export default function Desktop3() {
                 {/* End call button — red bg */}
                 <div className="flex items-center justify-center overflow-clip p-[12px] rounded-[500px] shrink-0" style={{ background: '#ffeeec', width: 50, height: 50 }}>
                   <div className="relative shrink-0" style={{ width: 20, height: 20 }}>
-                    <img alt="" className="absolute block inset-0 max-w-none size-full" src="https://www.figma.com/api/mcp/asset/5ae004d9-e05b-4cd9-a343-096f6bf418c6" />
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSketchEnd} />
                   </div>
                 </div>
               </div>
@@ -1142,7 +1143,7 @@ export default function Desktop3() {
             {/* Teal chat button — node 121:632 at left:1170 top:607 */}
             <div className="absolute flex items-center justify-center overflow-clip p-[12px] rounded-[500px]" style={{ background: '#00c1c1', left: 1170, top: 607, width: 50, height: 50 }}>
               <div className="relative shrink-0" style={{ width: 20, height: 20 }}>
-                <img alt="" className="absolute block inset-0 max-w-none size-full" src="https://www.figma.com/api/mcp/asset/3e580d41-a7ed-4523-a36d-e9a73318ba72" />
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSketchChat} />
               </div>
             </div>
 
@@ -1175,7 +1176,7 @@ export default function Desktop3() {
 
             {/* Graph image — node 121:709 */}
             <div className="absolute overflow-hidden pointer-events-none" style={{ height: 314, left: 699, top: 135, width: 524 }}>
-              <img alt="" className="absolute max-w-none" style={{ height: '243.24%', left: '-134.82%', top: '-108.11%', width: '259.11%' }} src="https://www.figma.com/api/mcp/asset/3b8c1513-0c4f-4d48-b99e-1d359d2a6f5f" />
+              <img alt="" className="absolute max-w-none" style={{ height: '243.24%', left: '-134.82%', top: '-108.11%', width: '259.11%' }} src={imgSketchGraph} />
             </div>
           </div>
         </div>
