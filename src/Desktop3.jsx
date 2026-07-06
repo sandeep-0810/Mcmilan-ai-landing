@@ -644,7 +644,7 @@ export default function Desktop3() {
     e.preventDefault();
     localStorage.setItem('mcm_email', email);
     localStorage.setItem('mcm_password', password);
-    window.location.href = "https://structuredlearningdemo-copy-production.up.railway.app/dashboard?tab=plan";
+    window.location.href = "https://structured-learning-demo-copy.s2.stag.yotutor.ai/onboarding";
   };
 
   useEffect(() => {
